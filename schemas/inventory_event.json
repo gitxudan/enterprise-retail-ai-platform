@@ -1,0 +1,18 @@
+{
+  "schema": "inventory_event",
+  "version": "1.0",
+  "description": "Inventory movement event for stock monitoring and reorder analysis",
+  "required_payload_fields": [
+    "inventory_event_id",
+    "event_time",
+    "store_id",
+    "product_id",
+    "warehouse_id",
+    "movement_type",
+    "stock_before",
+    "movement_qty",
+    "stock_after",
+    "reorder_flag",
+    "supplier_id"
+  ]
+}

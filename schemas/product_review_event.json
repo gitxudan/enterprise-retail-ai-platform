@@ -1,0 +1,17 @@
+{
+  "schema": "product_review_event",
+  "version": "1.0",
+  "description": "Product review event for sentiment analysis and Cortex Search",
+  "required_payload_fields": [
+    "review_id",
+    "review_time",
+    "customer_id",
+    "product_id",
+    "category",
+    "rating",
+    "review_title",
+    "review_text",
+    "language",
+    "sentiment_hint"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "retail-ai-server": {
+      "command": "python",
+      "args": ["-m", "mcp_server.server.retail_mcp_server"]
+    }
+  }
+}

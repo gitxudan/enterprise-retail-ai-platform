@@ -1,0 +1,23 @@
+{
+  "schema": "transaction_event",
+  "version": "1.0",
+  "description": "POS or online transaction event for structured retail analytics",
+  "required_payload_fields": [
+    "transaction_id",
+    "event_time",
+    "store_id",
+    "customer_id",
+    "product_id",
+    "category",
+    "quantity",
+    "unit_price",
+    "gross_amount",
+    "discount_rate",
+    "net_amount",
+    "payment_method",
+    "channel",
+    "promotion_flag",
+    "country",
+    "city"
+  ]
+}

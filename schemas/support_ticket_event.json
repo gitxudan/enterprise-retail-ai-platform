@@ -1,0 +1,16 @@
+{
+  "schema": "support_ticket_event",
+  "version": "1.0",
+  "description": "Customer support ticket event for semantic search and operational intelligence",
+  "required_payload_fields": [
+    "ticket_id",
+    "created_time",
+    "customer_id",
+    "product_id",
+    "category",
+    "priority",
+    "issue_text",
+    "status",
+    "resolution_text"
+  ]
+}
